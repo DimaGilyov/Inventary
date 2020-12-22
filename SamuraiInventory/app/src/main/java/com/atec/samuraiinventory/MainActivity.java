@@ -9,6 +9,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.atec.samuraiinventory.barcode.BarCodeDecoder;
+import com.atec.samuraiinventory.jira.Jira;
 
 import java.util.Objects;
 
@@ -40,5 +41,12 @@ public class MainActivity extends AppCompatActivity {
                 Objects.requireNonNull(barCodeDecoder.getText()).clear();
             }
         });
+
+        Thread thread = new Thread(() -> {
+            Jira.login("xxx", "xxx");
+            Jira.getJiraObjects();
+        });
+
+        thread.start();
     }
 }
