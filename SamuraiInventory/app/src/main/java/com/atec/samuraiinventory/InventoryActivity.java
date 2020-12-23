@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.widget.TextView;
 
 import com.atec.samuraiinventory.barcode.BarCodeDecoder;
@@ -13,13 +12,13 @@ import com.atec.samuraiinventory.jira.Jira;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class InventoryActivity extends AppCompatActivity {
     BarCodeDecoder barCodeDecoder;
     TextView barCodeResult;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_inventory);
         barCodeDecoder = findViewById(R.id.barCode);
         barCodeResult = findViewById(R.id.barCodeResult);
         barCodeDecoder.addTextChangedListener(new TextWatcher() {
@@ -27,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 String barCode = barCodeDecoder.getText().toString();
                 barCodeResult.setText(barCode);
-                Log.d("MY", barCode);
                 //TODO: Реализовать логику
             }
 

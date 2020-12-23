@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Inventory</string>
+    <string name="app_name">Склад</string>
+    <string name="login">Ник</string>
+    <string name="pin">PIN</string>
+    <string name="loginText">Войти</string>
+    <string name="pinError">Не верный "НИК" или "PIN"</string>
+    <string name="saveLoginCheckBox">Запомнить</string>
+    <string name="inventory">Инвентаризация</string>
+    <string name="moved">Перемещение</string>
+    <string name="receipt">Поступление</string>
+    <string name="write_off">Списание</string>
+    <string name="menuLabel">Меню</string>
 </resources>

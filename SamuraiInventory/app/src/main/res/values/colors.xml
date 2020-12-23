@@ -6,6 +6,14 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="dart">#1C1B1B</color>
+    <color name="dart">#232D36</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="appBackground">#101D25</color>
+    <color name="textField">#03A999</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#24983F</color>
+    <color name="blue">#169DB2</color>
+    <color name="red2">#DC3545</color>
+    <color name="lilac">#D25BAB</color>
+    <color name="yellow">#E1EC76</color>
 </resources>
