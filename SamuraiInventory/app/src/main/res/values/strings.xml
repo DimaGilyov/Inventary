@@ -10,4 +10,14 @@
     <string name="receipt">Поступление</string>
     <string name="write_off">Списание</string>
     <string name="menuLabel">Меню</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="User">Пользователь</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="menu_home">Домой</string>
+    <string name="other">Прочее</string>
+    <string name="exit">Выход</string>
 </resources>

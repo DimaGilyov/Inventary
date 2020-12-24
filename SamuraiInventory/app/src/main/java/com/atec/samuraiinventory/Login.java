@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
         boolean isSave = sharedPreferences.getBoolean(IS_SAVE_NICK, false);
         saveLoginCheckBox.setChecked(isSave);
 
-        Intent intent = new Intent(this, MenuActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         pinEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
