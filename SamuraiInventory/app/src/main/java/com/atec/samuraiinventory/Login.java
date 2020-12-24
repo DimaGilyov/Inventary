@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
     public static final String NICK_NAME = "NICKNAME";
-    private static final String IS_SAVE_NICK = "IS_SAVE_NICK";
+    public static final String IS_SAVE_NICK = "IS_SAVE_NICK";
     EditText inputLogin;
     EditText pinEditText;
     TextView errorMessage;
