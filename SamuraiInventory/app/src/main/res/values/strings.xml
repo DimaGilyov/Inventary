@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Склад</string>
-    <string name="login">Ник</string>
+    <string name="login">Nick</string>
     <string name="pin">PIN</string>
     <string name="loginText">Войти</string>
-    <string name="pinError">Не верный "НИК" или "PIN"</string>
+    <string name="pinError"></string>
     <string name="saveLoginCheckBox">Запомнить</string>
     <string name="inventory">Инвентаризация</string>
     <string name="moved">Перемещение</string>
@@ -17,7 +17,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Настройки</string>
 
-    <string name="menu_home">Домой</string>
+    <string name="search">Поиск</string>
     <string name="other">Прочее</string>
     <string name="exit">Выход</string>
 </resources>

@@ -6,40 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <LinearLayout
+    <EditText
+        android:id="@+id/searchTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="90dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/inventoryButton"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:backgroundTint="@color/green"
-            android:text="@string/inventory" />
-
-        <Button
-            android:id="@+id/movedButton"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:backgroundTint="@color/blue"
-            android:text="@string/moved" />
-
-        <Button
-            android:id="@+id/receiptButton"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:backgroundTint="@color/lilac"
-            android:text="@string/receipt" />
-
-        <Button
-            android:id="@+id/writeOffButton"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:backgroundTint="@color/red2"
-            android:text="@string/write_off" />
-    </LinearLayout>
+        android:layout_height="41dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edit_text_style"
+        android:textSize="30sp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
 </androidx.constraintlayout.widget.ConstraintLayout>

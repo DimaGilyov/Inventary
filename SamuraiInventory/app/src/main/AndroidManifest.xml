@@ -15,16 +15,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.SamuraiInventory.NoActionBar"></activity>
-        <activity
-            android:name=".MenuActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MenuActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.SamuraiInventory.NoActionBar" />
         <activity
             android:name=".Login"
             android:screenOrientation="portrait">
@@ -32,15 +23,6 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".InventoryActivity"
-            android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.InventoryActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
