@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/inputLogin"
-        android:layout_width="332dp"
-        android:layout_height="50dp"
+        android:layout_width="285dp"
+        android:layout_height="45dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="12dp"
@@ -31,11 +31,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/inputLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.135"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -44,19 +44,19 @@
         android:id="@+id/pinView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="40dp"
         android:text="@string/pin"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintEnd_toStartOf="@+id/saveLoginCheckBox"
+        app:layout_constraintHorizontal_bias="0.245"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputLogin" />
 
     <EditText
         android:id="@+id/pinEditText"
-        android:layout_width="333dp"
-        android:layout_height="50dp"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="404dp"
         android:background="@drawable/edit_text_style"
         android:ems="4"
@@ -69,15 +69,15 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pinView"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/errorText"
-        android:layout_width="307dp"
-        android:layout_height="35dp"
+        android:layout_width="272dp"
+        android:layout_height="37dp"
         android:layout_marginTop="36dp"
         android:text="@string/pinError"
         android:textColor="@color/red"
@@ -93,12 +93,11 @@
         android:id="@+id/saveLoginCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
         android:text="@string/saveLoginCheckBox"
         app:layout_constraintBottom_toTopOf="@+id/pinEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.989"
-        app:layout_constraintStart_toEndOf="@+id/pinView"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputLogin"
         app:layout_constraintVertical_bias="0.0" />
 
