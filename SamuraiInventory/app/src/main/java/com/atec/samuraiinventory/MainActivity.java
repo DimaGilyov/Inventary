@@ -50,14 +50,17 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         if (menuItem.getItemId() == R.id.action_exit) {
             Intent intent = new Intent(this, Login.class);
             startActivity(intent);
+
+            return true;
         }
 
-        return true;
+        return super.onOptionsItemSelected(menuItem);
     }
 
     @Override
