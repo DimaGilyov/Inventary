@@ -1,0 +1,30 @@
+{"hardware":[
+  {
+  "name": "monitor",
+  "objectTypeId": "6",
+  "attributesToDisplayIds": [
+    {"key": "49"},
+    {"name": "47"},
+    {"details": "84"},
+    {"responsible": "48"},
+    {"department": "85"},
+    {"placement": "83"},
+    {"price": "80"},
+    {"status": "78"},
+    {"comment": "46"}
+  ]},
+  {
+    "name": "mouse",
+    "objectTypeId": "7",
+    "attributesToDisplayIds": [
+      {"key": "52"},
+      {"name": "90"},
+      {"details": "86"},
+      {"responsible": "93"},
+      {"department": "87"},
+      {"placement": "92"},
+      {"price": "88"},
+      {"status": "53"},
+      {"comment": "91"}
+    ]}
+]}

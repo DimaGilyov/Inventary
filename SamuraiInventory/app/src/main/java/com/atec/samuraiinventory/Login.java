@@ -2,6 +2,7 @@ package com.atec.samuraiinventory;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentManager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -42,7 +43,7 @@ public class Login extends AppCompatActivity {
         boolean isSave = sharedPreferences.getBoolean(IS_SAVE_NICK, false);
         saveLoginCheckBox.setChecked(isSave);
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, MenuActivity.class);
         pinEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
