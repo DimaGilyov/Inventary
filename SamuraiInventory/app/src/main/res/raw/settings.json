@@ -1,0 +1,54 @@
+{
+  "JiraInsight": {
+    "loginURL": "http://atlassian2.ff.local:8081/login.jsp",
+    "navlistURL": "http://atlassian2.ff.local:8081/rest/insight/1.0/object/navlist/iql",
+    "username": "brotherteam",
+    "password": "u03%QS8T"
+  },
+  "hardware": [
+    {
+      "name": "Monitor",
+      "objectTypeId": "244",
+      "attributesToDisplayIds": [
+        {
+          "fieldName": "key",
+          "fieldID": "34"
+        },
+        {
+          "fieldName": "name",
+          "fieldID": "35"
+        },
+        {
+          "fieldName": "details",
+          "fieldID": "38"
+        },
+        {
+          "fieldName": "responsible{user}",
+          "fieldID": "39"
+        },
+        {
+          "fieldName": "department",
+          "fieldID": "40"
+        },
+        {
+          "fieldName": "placement",
+          "fieldID": "41"
+        },
+        {
+          "fieldName": "price",
+          "fieldID": "42"
+        },
+        {
+          "fieldName": "status{status}",
+          "fieldID": "44"
+        },
+        {
+          "fieldName": "comment",
+          "fieldID": "45"
+        }
+      ]
+    }
+  ]
+}
+
+
